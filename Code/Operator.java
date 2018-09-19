@@ -4,7 +4,15 @@
 public class Operator
 {
 	// Holds password to enter operator mode. abc123 - joke password that should never be used
-	private String password = "abc123";
+	private String password;
+	
+	/**
+		Constructs the operator class
+	*/
+	public Operator()
+	{
+		password = "abc123";
+	}
 	
 	/**
 		Checks if password is correct
@@ -13,7 +21,7 @@ public class Operator
 	*/
 	public boolean checkPassword(String enteredPass)
 	{
-		if (password == enteredPass)
+		if (password.equals(enteredPass))
 			return true;
 		else
 			return false;
