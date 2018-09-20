@@ -21,10 +21,7 @@ public class Operator
 	*/
 	public boolean checkPassword(String enteredPass)
 	{
-		if (password.equals(enteredPass))
-			return true;
-		else
-			return false;
+		return password.equals(enteredPass);
 	}
 }
 	
