@@ -13,3 +13,7 @@ ATM will act as the connecting class between ATMInterface and BankServer, using 
 - making changes to ATM, ATMInterface, and BankServer prior to upload.
 - new class added (ATMDriver) which functions to run the program and reach initial screen
 - diagrams may be revised as development progresses
+
+9/20
+- Customer class added new getOwnerName method
+- Operator class code cleaned up
