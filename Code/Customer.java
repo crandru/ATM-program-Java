@@ -75,6 +75,15 @@ public class Customer
 	}
 	
 	/**
+		Get the owner's name
+		@return owner name from current account
+	*/
+	public String getOwnerName()
+	{
+		return ownerName;
+	}
+	
+	/**
 		Checks passcode against current passcode
 		@param pass the passcode to test
 		@return boolean whether they match
