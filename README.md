@@ -17,3 +17,7 @@ ATM will act as the connecting class between ATMInterface and BankServer, using 
 9/20
 - Customer class added new getOwnerName method
 - Operator class code cleaned up
+
+9/22
+- UML Diagrams updated to reflect current status of design
+- Old diagrams removed
