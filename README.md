@@ -1,4 +1,4 @@
-# Project code TBA:
+Java ATM Course project - WIP
 
 ATM program consists of 5 classes:
 - ATM
