@@ -21,3 +21,7 @@ ATM will act as the connecting class between ATMInterface and BankServer, using 
 9/22
 - UML Diagrams updated to reflect current status of design
 - Old diagrams removed
+
+9/23
+- Updated the CRC cards to final design
+- Added finalized use case document to show functions of ATM
