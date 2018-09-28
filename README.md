@@ -25,3 +25,6 @@ ATM will act as the connecting class between ATMInterface and BankServer, using 
 9/23
 - Updated the CRC cards to final design
 - Added finalized use case document to show functions of ATM
+
+9/28
+- Added the ATMDriver and ATMInterface classes (will reexamine when all files are uploaded)
