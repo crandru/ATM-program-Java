@@ -6,9 +6,11 @@ public class ATMDriver
 {
 	public static void main(String[] args)
 	{
+		//set up ATM system
 		Scanner scan = new Scanner(System.in);
 		ATMInterface i = new ATMInterface(scan);
 		ATM a = new ATM(i);
+		//begin ATM interface instance
 		i.process(a);
 		int state;
 		//preserves accounts and balances until program is exited

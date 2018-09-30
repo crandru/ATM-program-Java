@@ -34,10 +34,13 @@ public class ATMInterface
 		String input = "";
 		//Initial ATM prompt on every boot
 		printOutput("Hello, please enter the Account # followed by (*)");
+		//flag to determine if log in is completed
 		boolean persist = true;
+		//loop serves to ensure correct input is achieved
 		while (persist)
 		{
 			input += scan.nextLine();
+			//user input ends with *, operator with #
 			if (input.indexOf('*') >= 0 || input.indexOf('#') >= 0)
 			{	
 				if (input.indexOf('*') >= 0)
@@ -97,6 +100,7 @@ public class ATMInterface
 	
 	/**
 		Processor for calls from the ATM operator phase
+		@return int containing operator input
 	*/
 	public int operProc()
 	{
