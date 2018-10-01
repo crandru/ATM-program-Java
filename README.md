@@ -28,3 +28,6 @@ ATM will act as the connecting class between ATMInterface and BankServer, using 
 
 9/28
 - Added the ATMDriver and ATMInterface classes (will reexamine when all files are uploaded)
+
+10/1
+- Added the BankServer class which manages objects of the Customer class and creates 5 initial Customers (due to nature of course project)
