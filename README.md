@@ -31,3 +31,7 @@ ATM will act as the connecting class between ATMInterface and BankServer, using 
 
 10/1
 - Added the BankServer class which manages objects of the Customer class and creates 5 initial Customers (due to nature of course project)
+
+10/2
+- Added the ATM class which processes various ATM actions and connects the BankServer, ATMInterface, Customer, and Operator classes.
+- Will be updated with minor changes according to project specs
